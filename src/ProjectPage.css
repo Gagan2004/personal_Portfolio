@@ -1,0 +1,79 @@
+.project-page {
+    padding: 40px;
+    background-color: #0b0f0c;
+    color: #e0ffe0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    cursor: pointer;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #00ff88;
+  }
+  
+  .category-filter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .filter-btn {
+    padding: 8px 16px;
+    border: 1px solid #00ff88;
+    background-color: transparent;
+    color: #00ff88;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .filter-btn.active,
+  .filter-btn:hover {
+    background-color: #00ff88;
+    color: #000;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background-color: #111;
+    border: 1px solid #00ff88;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 16px;
+  }
+  
+  .project-links a {
+    margin-right: 10px;
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
