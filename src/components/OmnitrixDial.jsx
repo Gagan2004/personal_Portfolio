@@ -229,7 +229,7 @@ const platforms = [alien_5,alien_0,alien_1,alien_2, alien_3, alien_4];
             labelsVisible ? "nav-visible" : "hidden-position"
           }`}
         >
-          Contact
+         <Link to='/contact'>Contact</Link> 
         </div>
       </div>
 

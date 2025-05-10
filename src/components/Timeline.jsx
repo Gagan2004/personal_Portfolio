@@ -3,26 +3,23 @@ import { motion } from "framer-motion";
 
 const timelineData = [
   {
-    year: "2023",
     title: "Full-Stack Airbnb Clone",
     description: "Built using Next.js, MongoDB, and Prisma with a full booking and review system.",
   },
   {
-    year: "2024",
-    title: "Library Management System",
-    description: "A web-based tool using React and Node.js that serves real-time DBMS queries.",
+    title: "File Sharing System",
+    description: "A web-based tool using React and Node.js that allows to store and share files among devices throgh a clean web platform.",
   },
   {
-    year: "2025",
-    title: "AI Storytelling Reels",
-    description: "Powerful motivational reels using AI voiceovers, stock visuals, and impactful scripts.",
+    title: "ML Predictor",
+    description: "Predictive model for house prices using regression.",
   },
 ];
 
 const ProjectTimeline = () => {
   return (
     <section className="py-12 px-6 bg-[#101010] rounded-2xl shadow-[0_0_20px_#00ff88]/20">
-      <h2 className="text-3xl text-center text-[#00ff88] font-bold mb-10">My Journey</h2>
+      <h2 className="text-3xl text-center text-[#00ff88] font-bold mb-10">My Projects</h2>
       
       <div className="relative border-l-[3px] border-gradient-to-b from-[#00ff88] to-transparent pl-8">
         {timelineData.map((item, index) => (

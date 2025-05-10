@@ -1,11 +1,11 @@
 import React from "react";
 import OmnitrixDial from "./components/OmnitrixDial.jsx";
 import { BrowserRouter as Router, Routes, Route  , useLocation } from "react-router-dom";
-// import Contact from "./pages/Contact";
 import About from "./pages/About.jsx"
 import Skills from "./pages/Skills.jsx";
 import ProjectPage from "./pages/Projects.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Contact from "./pages/Contact.jsx";
 
 
 const Appx =()=>{
@@ -21,6 +21,8 @@ const Appx =()=>{
           <Route path="/about" element={<About/>} />
           <Route path="/projects" element={<ProjectPage/>} />
           <Route path="/skills" element={<Skills/>} />
+          <Route path="/contact" element={<Contact />} />
+
         </Routes>
       </div>
 
