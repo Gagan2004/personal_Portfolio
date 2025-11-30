@@ -15,7 +15,7 @@ const Appx =()=>{
   return(<>  
   {showNavbar && <Navbar />}
         {/* <div style={{ marginTop: "80px" }}></div> */}
-        <div style={{ marginTop: showNavbar ? "80px" : "0px" }}>
+        <div  >
         <Routes>
           <Route path="/" element={<OmnitrixDial/>} />
           <Route path="/about" element={<About/>} />
